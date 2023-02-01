@@ -19,9 +19,10 @@ function Navbar() {
         <li>
           <Link to="/Services">Services</Link>
         </li>
-
         <li>
-          <span className="text-red-700	">Order Now</span>
+          <Link to="/ordernow">
+            <span className="text-red-700	">Order Now</span>
+          </Link>
         </li>
       </ul>
     </div>

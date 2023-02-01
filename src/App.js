@@ -6,6 +6,7 @@ import About from "./Components/About";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import Proffessional from "./Components/Proffessional";
 import Footer from "./Components/Footer";
+import OrderNow from "./Components/OrderNow";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <WhyChooseUs />
       <Proffessional />
       <Footer />
+      <Routes>
+        <Route exact path="/ordernow" element={<OrderNow />} />
+      </Routes>
     </div>
   );
 }
